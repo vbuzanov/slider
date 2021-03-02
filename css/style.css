@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: linear-gradient(rgb(208, 230, 245), rgb(81, 155, 204));
+	height: 100vh;
+	overflow-y: hidden;
+}
+
+.slider{
+	position: relative;
+	width: 900px;
+	margin: 3vh auto;
+	text-align: center;
+}
+.slider>span{
+	font-size: 3em;
+	color: gray;
+	cursor: pointer;
+}
+
+#thumbs{
+	width: 8000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.6s ease;
+}
+
+#thumbs img{
+	float: left;
+	margin: 0;
+	transition: transform 0.6s ease;
+}
+
+.window{
+	width: 800px;
+	overflow: hidden;
+	margin: 0 55px;
+	position: relative;
+	height: 480px;
+}
